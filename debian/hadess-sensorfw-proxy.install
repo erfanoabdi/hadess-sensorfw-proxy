@@ -1,0 +1,2 @@
+hadess-sensorfw-proxy.service lib/systemd/system
+
