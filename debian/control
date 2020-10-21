@@ -1,0 +1,22 @@
+Source: hadess-sensorfw-proxy
+Section: admin
+Priority: optional
+Build-Depends: cmake (>= 2.8.10),
+               debhelper (>= 9),
+               dbus,
+               libglib2.0-dev,
+               libgudev-1.0-dev,
+               pkg-config,
+               sensorfw-qt5,
+               systemd
+Maintainer: Erfan Abdi <erfangplus@gmail.com>
+Standards-Version: 3.9.5
+Homepage: https://github.com/hybris-mobian/hadess-sensorfw-proxy
+
+Package: hadess-sensorfw-proxy
+Section: libs
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: Sensorfw sensors to hadess iio proxy adaptor
+ Sensorfw sensors to hadess iio proxy adaptor
