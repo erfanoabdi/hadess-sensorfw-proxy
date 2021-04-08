@@ -1,2 +1,1 @@
-hadess-sensorfw-proxy.service lib/systemd/system
-
+10-hadess-sensorfw-proxy.conf /etc/systemd/system/iio-sensor-proxy.service.d
