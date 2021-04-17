@@ -84,7 +84,7 @@ orientation_calc (OrientationUp prev,
 
         /* Portrait check */
         if (abs(portrait_rotation) > THRESHOLD_PORTRAIT) {
-                ret = (portrait_rotation > 0) ? ORIENTATION_LEFT_UP : ORIENTATION_RIGHT_UP;
+                ret = (portrait_rotation > 0) ? ORIENTATION_RIGHT_UP : ORIENTATION_LEFT_UP;
 
                 /* Some threshold to switching between portrait modes */
                 if (prev == ORIENTATION_LEFT_UP || prev == ORIENTATION_RIGHT_UP) {
