@@ -17,10 +17,10 @@ Homepage: https://github.com/hybris-mobian/hadess-sensorfw-proxy
 Package: hadess-sensorfw-proxy
 Section: libs
 Architecture: any
+Pre-Depends: iio-sensor-proxy,
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          libsensorfw-qt5-plugins,
          libsensorfw-qt5-hybris,
-         iio-sensor-proxy,
 Description: Sensorfw sensors to hadess iio proxy adaptor
  Sensorfw sensors to hadess iio proxy adaptor
